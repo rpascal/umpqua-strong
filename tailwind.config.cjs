@@ -1,7 +1,10 @@
 module.exports = {
-  content: [],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["lemonade"],
+  },
 }
