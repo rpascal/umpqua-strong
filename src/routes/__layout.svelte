@@ -1,20 +1,14 @@
 <script>
 	import '../app.css';
+
+	import Header from '../components/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>Umpqua Strong</title>
-	<meta
-		name="description"
-		content=""
-	/>
+	<meta name="description" content="" />
 </svelte:head>
 
-<!--  container mx-auto px-4 py-16 -->
-<div class="">
+<Header />
 
-	<button class="btn btn-primary">Button</button>
-
-
-	<slot />
-</div>
+<slot />

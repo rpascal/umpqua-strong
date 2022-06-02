@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import WeRememberSection from '../components/WeRememberSection.svelte';
+	import Intro from '../components/Intro.svelte';
+	import StepUpReachOutSection from '../components/StepUpReachOutSection.svelte';
+	import OurValuesSection from '../components/OurValuesSection.svelte';
+	import PastEventsSection from '../components/PastEventsSection.svelte';
+</script>
+
+<Intro />
+<WeRememberSection />
+<StepUpReachOutSection />
+<OurValuesSection />
+<PastEventsSection />

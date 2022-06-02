@@ -1,7 +1,7 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
-
 import adapterStatic from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess';
+import Icons from 'unplugin-icons/vite';
+
 
 
 
@@ -23,6 +23,13 @@ const config = {
 			fallback: null,
 			precompress: true
 		}),
+		vite: {
+			plugins: [
+				Icons({
+					compiler: 'svelte',
+				}),
+			],
+		},
 		/*
 		⚠️ You must ensure SvelteKit's trailingSlash option is set appropriately for your environment. If your host does not render /a.html upon receiving a request for /a then you will need to set trailingSlash: 'always' to create /a/index.html instead.
 		*/
