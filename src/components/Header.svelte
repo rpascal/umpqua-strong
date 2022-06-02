@@ -3,13 +3,13 @@
 	import InstagramIcon from '~icons/fa-brands/instagram';
 	import TwitterIcon from '~icons/fa-brands/twitter';
 
-	const logoSrc = './logo-xs.png';
+	const logoSrc = './logo.png';
 </script>
 
 <div class="navbar bg-primary drop-shadow-lg text-white">
 	<div class="flex-1 text-center">
-		<a href="/" class="btn btn-ghost normal-case   gap-2 text-base font-medium">
-			<img src={logoSrc} alt="logo" class="h-auto w-12" />
+		<a href="/" class="btn btn-ghost normal-case   gap-2 text-base font-medium pl-0">
+			<img src={logoSrc} alt="logo" class="logoImg" />
 			Umpqua Strong
 		</a>
 	</div>
@@ -39,3 +39,9 @@
 		</a>
 	</div>
 </div>
+
+<style>
+	.logoImg {
+		height: 39px;
+	}
+</style>

@@ -24,7 +24,7 @@ const presentedByPath = "/sponsors/NW Logo.jpg"
 
         <p class="text-base">Presented By</p>
 
-        <img src={presentedByPath} alt="presented by" class="max-w-sm" />
+        <img src={presentedByPath} alt="presented by" class="max-w-sm w-auto px-5" />
 	</div>
 </section>
 
