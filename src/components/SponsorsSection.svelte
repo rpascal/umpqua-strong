@@ -40,7 +40,7 @@
 			{/each}
 		</div>
 
-		<div class="grid grid-flow-row-dense md:grid-cols-3 auto-rows-min	 gap-2">
+		<div class="grid grid-flow-row-dense sm:grid-cols-3 auto-rows-min	 gap-2">
 			{#each otherImages as image}
 				<a class="m-auto" href={image.href} target="_blank">
 					<img src={image.src} alt={image.alt} />

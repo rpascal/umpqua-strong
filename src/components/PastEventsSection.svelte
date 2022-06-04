@@ -7,7 +7,7 @@
 			<p class="text-6xl text-secondary font-light">Past Events</p>
 		</div>
 
-		<div class="grid md:grid-cols-2 gap-4 ">
+		<div class="grid sm:grid-cols-2 gap-4 ">
 			<div class="text-center m-auto ">
 				<img src="/past-races/past_event_1.jpg" alt="past event 1" />
 			</div>
